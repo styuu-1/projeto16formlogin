@@ -1,0 +1,131 @@
+/*Fonte do google - montserrat*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: rgb(67, 67, 234);
+}
+
+.wrapper {
+
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.wrapper .title {
+    line-height: 80px;
+    background: #1c6fe3;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wrapper form {
+
+    padding: 30px 20px 25px 20px;
+
+
+}
+
+.wrapper form .row {
+
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input {
+
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 55px;
+    border-radius: 5px;
+    border: 1px solid rgb(145, 145, 145);
+    font-size: 15px;
+}
+
+.wrapper form .row i {
+
+    position: absolute;
+    width: 47px;
+    border-radius: 5px 0 0 5px;
+    height: 100%;
+    color: floralwhite;
+    background-color: rgb(212, 59, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .button input {
+    color: #fff;
+    font-weight: 600;
+    padding-left: 0px;
+    background-color: rgb(65, 65, 159);
+    border: 1px solid;
+    font-size: 18px;
+
+
+}
+
+.signup-link {
+    margin-top: 25;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    border: none;
+}
+
+.linkcadastre {
+
+    color: #16a;
+    text-decoration: none;
+
+}
+
+.linkcadastre:hover {
+
+    text-decoration: underline;
+
+}
+
+.wrapper form .pass {
+
+    margin: -8px 0 15px 0;
+
+}
+
+.wrapper form .pass a {
+
+    color: #16a;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.wrapper form .pass a:hover {
+
+    text-decoration: underline;
+
+}
